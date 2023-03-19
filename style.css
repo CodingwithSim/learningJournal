@@ -1,4 +1,4 @@
-html, 
+html,
 body {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 2.0rem;
-    
+
 }
 
 .header-logo {
@@ -25,7 +25,7 @@ body {
     margin: 5px 4.5px 0 0
 }
 
-.header-title{
+.header-title {
     width: 15rem;
     height: 1.5rem;
     font-size: 1.35rem;
@@ -40,7 +40,7 @@ nav ul {
 }
 
 .hero-container {
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     padding: 8.7rem 0 2.5rem 0;
 }
@@ -50,8 +50,9 @@ nav ul {
     padding: 0;
 }
 
-.hero  p,.hero-title {
-    padding: 0 2rem ;
+.hero p,
+.hero-title {
+    padding: 0 2rem;
     max-width: 500px;
 
 }
@@ -63,7 +64,7 @@ nav ul {
     margin: 0 auto;
 }
 
-.post-container{
+.post-container {
     margin-bottom: 4.1rem;
 }
 
@@ -79,7 +80,7 @@ nav ul {
     margin: 0;
 }
 
-.post-content  {
+.post-content {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 125%;
@@ -128,7 +129,7 @@ time {
     font-weight: 400;
 }
 
-.view-btn{
+.view-btn {
     font-weight: 700;
     font-size: 1.6rem;
     line-height: 2.0rem;
@@ -186,7 +187,7 @@ footer strong {
     width: 351.22px;
 }
 
-.about-container > h3 {
+.about-container>h3 {
     text-align: center;
     margin-top: 4.5rem;
     margin-bottom: 0;
@@ -202,29 +203,30 @@ footer strong {
 
 /* MEDDIA Q */
 
-@media (min-width: 480px){
+@media (min-width: 480px) {
     .header-container {
         padding: 3.0rem;
     }
+
     .header-logo {
-    height: 3.4rem;
-    width: 3.4rem;
-    margin-top: 7px
+        height: 3.4rem;
+        width: 3.4rem;
+        margin-top: 7px
     }
 
-    .header-title{
-    width: 21.8rem;
-    font-size: 2.0rem;
+    .header-title {
+        width: 21.8rem;
+        font-size: 2.0rem;
     }
 
     nav ul {
-    font-size: 1.6rem;
+        font-size: 1.6rem;
     }
-    
+
     .hero-container {
-    height: 100%;
-    width: 100%;
-    padding: 28.7rem 0 5.9rem 0;
+        /* height: 100%; */
+        width: 100%;
+        padding: 28.7rem 0 5.9rem 0;
     }
 
     .hero-title {
@@ -232,8 +234,9 @@ footer strong {
         padding: 0;
     }
 
-    .hero  p,.hero-title {
-        padding: 0 5.3rem ;
+    .hero p,
+    .hero-title {
+        padding: 0 5.3rem;
         max-width: 657px;
 
     }
@@ -245,7 +248,7 @@ footer strong {
         gap: 2.6rem;
     }
 
-    .post-container{
+    .post-container {
         margin-bottom: 0;
         /* width: 30.9rem; */
         /* height: 39.3rem; */
@@ -265,7 +268,7 @@ footer strong {
         margin: 0;
     }
 
-    .post-content  {
+    .post-content {
         font-weight: 400;
         font-size: 1.6rem;
         line-height: 125%;
@@ -310,7 +313,7 @@ footer strong {
         font-weight: 400;
     }
 
-    .view-btn{
+    .view-btn {
         font-weight: 700;
         font-size: 1.6rem;
         line-height: 2.0rem;
@@ -337,13 +340,13 @@ footer strong {
     }
 
     /* ABOUT PAGE */
-    
+
     .avatar-img {
-    width: 18.2rem;
-    height: 18.2rem;
-    border-radius: 50%;
-    margin-top: 1.5rem;
-    margin-left: 5.3rem;
+        width: 18.2rem;
+        height: 18.2rem;
+        border-radius: 50%;
+        margin-top: 1.5rem;
+        margin-left: 5.3rem;
     }
 
     .about-intro h1 {
@@ -353,24 +356,24 @@ footer strong {
         letter-spacing: -0.03em;
         width: 100%;
     }
-    
+
     .about-container {
         font-size: 1.6rem;
         width: 90%;
         margin: 0 auto
     }
-    
+
     .about-main {
-        
+
         margin: 5.1rem auto;
         line-height: 25px;
     }
-    
+
     .about-main h3 {
         font-size: 2.0rem;
     }
 
-    .about-container > h3 {
+    .about-container>h3 {
         text-align: center;
         margin-top: 0;
         margin-bottom: 0;
@@ -379,18 +382,21 @@ footer strong {
 
 @media (min-width: 768px) {
     .post-container {
-        flex-basis: 250px;  
-    } 
+        flex-basis: 250px;
+    }
+
     .about-container {
         width: 80%;
         margin: 0 auto;
     }
-        .about-intro {
+
+    .about-intro {
         display: flex;
         column-gap: 3.3rem;
         width: 90%;
         align-items: center;
     }
+
     .about-main {
         margin: 5.1rem auto;
     }
