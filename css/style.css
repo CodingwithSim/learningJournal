@@ -1,0 +1,397 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Source Sans Pro';
+    box-sizing: border-box;
+}
+
+/* LAYOUT */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.0rem;
+    
+}
+
+.header-logo {
+    height: 2.316rem;
+    width: 2.316rem;
+    float: left;
+    text-align: center;
+    margin: 5px 4.5px 0 0
+}
+
+.header-title{
+    width: 15rem;
+    height: 1.5rem;
+    font-size: 1.35rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    gap: 3rem;
+    font-size: 1.2rem;
+}
+
+.hero-container {
+    height: 100%;
+    width: 100%;
+    padding: 8.7rem 0 2.5rem 0;
+}
+
+.hero-title {
+    margin: 0;
+    padding: 0;
+}
+
+.hero  p,.hero-title {
+    padding: 0 2rem ;
+    max-width: 500px;
+
+}
+
+.section-two {
+    padding: 3.4rem 0;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.post-container{
+    margin-bottom: 4.1rem;
+}
+
+.post-img {
+    width: 100%;
+    margin-bottom: 1.4rem;
+}
+
+.post-title {
+    font-weight: 700;
+    font-size: 2.4rem;
+    padding: 0;
+    margin: 0;
+}
+
+.post-content  {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 125%;
+}
+
+/* TYPOGRAPHY */
+
+main {
+    background: #FAFAFA;
+}
+
+.header-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.35522rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.hero-container {
+    background: url("images/blog-image-hero.png");
+    background-size: cover;
+    color: white
+}
+
+.hero-title {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.hero-content {
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+}
+
+.hero time {
+    font-size: 1.2rem;
+}
+
+time {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.view-btn{
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+    text-align: center;
+    text-decoration-line: underline;
+    cursor: pointer;
+    margin-bottom: 4.3rem;
+}
+
+footer {
+    text-align: center;
+    background: #202020;
+    color: #ECECEC;
+    padding: 3.7rem 0;
+    font-size: 1.2rem;
+    line-height: 0;
+}
+
+footer strong {
+    line-height: 108.2%;
+    letter-spacing: -0.03em;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HIDDEN */
+
+.hidden {
+    display: none;
+}
+
+
+/* ABOUT PAGE */
+
+.avatar-img {
+    width: 18.2rem;
+    height: 18.2rem;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+}
+
+.about-container {
+    padding: 0 2.0rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.0rem;
+}
+
+.about-container h1 {
+    font-weight: 700;
+    font-size: 3.4rem;
+    line-height: 108.2%;
+    letter-spacing: -0.03em;
+    width: 351.22px;
+}
+
+.about-container > h3 {
+    text-align: center;
+    margin-top: 4.5rem;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+/* MEDDIA Q */
+
+@media (min-width: 480px){
+    .header-container {
+        padding: 3.0rem;
+    }
+    .header-logo {
+    height: 3.4rem;
+    width: 3.4rem;
+    margin-top: 7px
+    }
+
+    .header-title{
+    width: 21.8rem;
+    font-size: 2.0rem;
+    }
+
+    nav ul {
+    font-size: 1.6rem;
+    }
+    
+    .hero-container {
+    height: 100%;
+    width: 100%;
+    padding: 28.7rem 0 5.9rem 0;
+    }
+
+    .hero-title {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero  p,.hero-title {
+        padding: 0 5.3rem ;
+        max-width: 657px;
+
+    }
+
+    .section-two {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2.6rem;
+    }
+
+    .post-container{
+        margin-bottom: 0;
+        /* width: 30.9rem; */
+        /* height: 39.3rem; */
+        flex: 1 220px;
+    }
+
+    .post-img {
+        /* width: 30.9rem; */
+        /* height: 23.2rem; */
+        margin-bottom: 1.4rem;
+    }
+
+    .post-title {
+        font-weight: 700;
+        font-size: 2.4rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .post-content  {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 125%;
+    }
+
+    /* TYPOGRAPHY */
+
+    .header-title {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.6rem;
+    }
+
+    .hero-container {
+        background: url("images/blog-image-hero.png");
+        background-size: cover;
+        color: white
+    }
+
+    .hero-title {
+        font-size: 4rem;
+        font-weight: bold;
+    }
+
+    .hero-content {
+        font-size: 1.6rem;
+        line-height: 2.0rem;
+    }
+
+    .hero time {
+        font-size: 1.6rem;
+    }
+
+    time {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+
+    .view-btn{
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 2.0rem;
+        text-align: center;
+        text-decoration-line: underline;
+        cursor: pointer;
+        margin-bottom: 5.1rem;
+    }
+
+    footer {
+        text-align: center;
+        background: #202020;
+        color: #ECECEC;
+        padding: 3.7rem 0;
+        font-size: 1.2rem;
+        line-height: 0;
+    }
+
+    footer strong {
+        line-height: 108.2%;
+        letter-spacing: -0.03em;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* ABOUT PAGE */
+    
+    .avatar-img {
+    width: 18.2rem;
+    height: 18.2rem;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+    margin-left: 5.3rem;
+    }
+
+    .about-intro h1 {
+        font-weight: 700;
+        font-size: 3.6rem;
+        line-height: 108.2%;
+        letter-spacing: -0.03em;
+        width: 100%;
+    }
+    
+    .about-container {
+        font-size: 1.6rem;
+        width: 90%;
+        margin: 0 auto
+    }
+    
+    .about-main {
+        
+        margin: 5.1rem auto;
+        line-height: 25px;
+    }
+    
+    .about-main h3 {
+        font-size: 2.0rem;
+    }
+
+    .about-container > h3 {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .post-container {
+        flex-basis: 250px;  
+    } 
+    .about-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+        .about-intro {
+        display: flex;
+        column-gap: 3.3rem;
+        width: 90%;
+        align-items: center;
+    }
+    .about-main {
+        margin: 5.1rem auto;
+    }
+}
